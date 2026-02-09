@@ -1,5 +1,8 @@
 package com.example.Tutorial4.entity;
 
+import jakarta.persistence.*;
+import lombok.Data;
+
 @Entity
 @Data
 public class User {

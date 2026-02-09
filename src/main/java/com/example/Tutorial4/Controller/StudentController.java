@@ -1,9 +1,7 @@
 package com.example.Tutorial4.Controller;
 
-
-
-import com.nsbm.studenthub.entity.Student;
-import com.nsbm.studenthub.service.StudentService;
+import com.example.Tutorial4.entity.Student;
+import com.example.Tutorial4.Service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.web.bind.annotation.*;

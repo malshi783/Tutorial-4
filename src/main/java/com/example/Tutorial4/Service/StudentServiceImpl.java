@@ -1,10 +1,8 @@
-package com.example.Tutorial4.Service;
+package com.example.Tutorial4.service.impl;
 
-
-
-import com.nsbm.studenthub.entity.Student;
-import com.nsbm.studenthub.repository.StudentRepository;
-import com.nsbm.studenthub.service.StudentService;
+import com.example.Tutorial4.entity.Student;
+import com.example.Tutorial4.Repository.StudentRepository;
+import com.example.Tutorial4.Service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.*;
 import org.springframework.stereotype.Service;
